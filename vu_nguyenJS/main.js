@@ -1,6 +1,12 @@
 var tuoi = 0;
 
-tuoi = parseInt(window.prompt("Nhập tuổi:"));
-for(let i = 0; i < 10; i++){
-    document.writeln("Năm nay em ", tuoi + i, " tuổi.<br>");
+let co_hang_xom = {
+    ten : "lan",
+    tuoi: 18,
+    hon_nhan: "chua",
+    dia_chi: {
+        quan: "cau giay",
+        phuong: "mai dich",
+    }
 }
+document.writeln(co_hang_xom.hon_nhan)
