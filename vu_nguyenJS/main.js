@@ -11,12 +11,14 @@ let co_hang_xom = {
 };
 // document.writeln(co_hang_xom.hon_nhan);
 
-var tinh_tuoi = function () {
-  var nam_sinh = parseInt(window.prompt("Nhập năm sinh: "));
+var tinh_tuoi = function (nam_sinh) {
+//   var nam_sinh = parseInt(window.prompt("Nhập năm sinh: "));
   tuoi = 2025 - nam_sinh;
-  document.writeln(tuoi, "<br>");
+  return tuoi;
 };
 
-tinh_tuoi();
-tinh_tuoi();
+document.writeln(tinh_tuoi(2000), "<br>");
+document.writeln(tinh_tuoi(2002), "<br>");
+
+
 
