@@ -9,9 +9,11 @@
 var thong_bao = function() {
   document.getElementById("loi_chao").innerHTML += "Hết giớ! <br>";
 
-  
 }
 
 setTimeout(thong_bao, 3000);
 
 document.getElementById("loi_chao").innerHTML += "Xin chào! <br>";
+
+localStorage.ten = "mhung";
+localStorage.diachi = "Ha noi";
